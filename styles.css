@@ -1,6 +1,8 @@
 body {
   text-align: center;
   background-color: #0c1224;
+  /* position: relative; */
+  height: 100vh;
 }
 
 h1 {
@@ -9,11 +11,6 @@ h1 {
   font-family: "Arvo", cursive;
   text-shadow: 0 0 60px #04ccda;
 
-}
-
-footer {
-  color: #DBEDF3;
-  font-family: sans-serif;
 }
 
 .w {
@@ -52,7 +49,10 @@ footer {
 }
 
 .set {
-  margin: 10% auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 10% 0 ;
 }
 
 .game-over {
@@ -87,4 +87,12 @@ footer {
   background-color: white;
   cursor: pointer;
 
+}
+
+footer {
+  display: block;
+  color: #DBEDF3;
+  font-family: sans-serif;
+  padding: 60px 0;
+  margin: 0 auto;
 }
